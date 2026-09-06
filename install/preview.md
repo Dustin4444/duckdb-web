@@ -59,7 +59,9 @@ To install the preview build on Linux and macOS, run:
 curl https://install.duckdb.org | DUCKDB_VERSION=alpha bash
 ```
 
-To download the CLI or the C/C++ libraries as a package, use the following links:
+#### v2.0-dev CLI
+
+To download the v2.0-dev CLI as an archive, use the following links:
 
 | Platform | Architecture       | v2.0-dev                                                                               |
 | -------- | ------------------ | -------------------------------------------------------------------------------------- |
@@ -68,6 +70,18 @@ To download the CLI or the C/C++ libraries as a package, use the following links
 | macOS    | `arm64` / `x86_64` | [tar.gz](https://artifacts.duckdb.org/v2.0-cyanoptera/duckdb-cli-osx-universal.tar.gz) |
 | Windows  | `arm64`            | [tar.gz](https://artifacts.duckdb.org/v2.0-cyanoptera/duckdb-cli-windows-arm64.tar.gz) |
 | Windows  | `x86_64`           | [tar.gz](https://artifacts.duckdb.org/v2.0-cyanoptera/duckdb-cli-windows-amd64.tar.gz) |
+
+#### v2.0-dev Libraries
+
+To download the v2.0-dev C/C++ libraries as an archive, use the following links:
+
+| Platform | Architecture       | v2.0-dev                                                                                       |
+| -------- | ------------------ | ---------------------------------------------------------------------------------------------- |
+| Linux    | `arm64`            | [tar.gz](https://artifacts.duckdb.org/v2.0-cyanoptera/duckdb-shared-libs-linux-arm64.tar.gz)   |
+| Linux    | `x86_64`           | [tar.gz](https://artifacts.duckdb.org/v2.0-cyanoptera/duckdb-shared-libs-linux-amd64.tar.gz)   |
+| macOS    | `arm64` / `x86_64` | [tar.gz](https://artifacts.duckdb.org/v2.0-cyanoptera/duckdb-shared-libs-osx-universal.tar.gz) |
+| Windows  | `arm64`            | [tar.gz](https://artifacts.duckdb.org/v2.0-cyanoptera/duckdb-shared-libs-windows-arm64.tar.gz) |
+| Windows  | `x86_64`           | [tar.gz](https://artifacts.duckdb.org/v2.0-cyanoptera/duckdb-shared-libs-windows-amd64.tar.gz) |
 
 ## Python
 
